@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/trust-freamwork",
+  "description": "php freamork",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Arash Narimani",
+      "email": "arash.developer1380@example.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "app\\" : "app/",
+      "core\\": "core/"
+    }
+  },
+  "require": {
+  }
+}
